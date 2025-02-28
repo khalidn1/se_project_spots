@@ -41,10 +41,27 @@ font-family: "Poppins";
     font-size: 16px;
     line-height: 16px;
     opacity: 0.7;
+  background: transparent;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .profile__add-btn {
 margin-left: auto;
+  background-color: #212121;
+color: #FCF5E5;
+padding: 5px 10px;
+border: none;
+border-radius: 5px;
+width: 149px;
+height: 52px;
+margin-top: 138px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 8px;
 }
 
 @media screen and (max-width: 627px) {
